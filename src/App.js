@@ -1,8 +1,19 @@
 import React from 'react';
 
-function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
-}
+
+const App = () => {
+  return (
+    <div>
+      <h1>Image Uploader</h1>
+      <input type="text" />
+      <button>Upload Image</button>
+      <button>Generate Image</button>
+    </div>
+  );
+};
 
 export default App;
+
+
+
+
